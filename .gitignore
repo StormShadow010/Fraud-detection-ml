@@ -1,0 +1,62 @@
+# ──────────────────────────────────────────
+#  PYTHON
+# ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env/
+
+# ──────────────────────────────────────────
+#  MODELO ML  ← decide si lo subes o no
+# ──────────────────────────────────────────
+# Descomenta la línea de abajo si el modelo
+# es muy pesado y prefieres regenerarlo:
+# model.pkl
+
+# ──────────────────────────────────────────
+#  NODE / REACT / VITE
+# ──────────────────────────────────────────
+fraud-frontend/node_modules/
+fraud-frontend/dist/
+fraud-frontend/.vite/
+fraud-frontend/coverage/
+
+# ──────────────────────────────────────────
+#  VARIABLES DE ENTORNO
+# ──────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+fraud-frontend/.env
+fraud-frontend/.env.local
+fraud-frontend/.env.*.local
+
+# ──────────────────────────────────────────
+#  EDITORES / IDEs
+# ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ──────────────────────────────────────────
+#  LOGS
+# ──────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
